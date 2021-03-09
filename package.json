@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind:dev": "postcss build assets/css/tailwind.css -o assets/css/styles.css",
-    "tailwind:prod": "NODE_ENV=production postcss build assets/css/tailwind.css -o assets/css/styles.css"
+    "tailwind:dev": "postcss assets/css/tailwind.css -o assets/css/styles.css",
+    "tailwind:prod": "NODE_ENV=production postcss assets/css/tailwind.css -o assets/css/styles.css",
+    "tailwind:watch": "postcss assets/css/tailwind.css -o assets/css/styles.css --watch"
   },
   "keywords": [],
   "author": "",
